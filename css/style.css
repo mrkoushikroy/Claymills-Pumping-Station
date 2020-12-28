@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url('../img/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  }
+.navbar {
+    background-color: #788CCE !important;
+    margin-top: unset !important;
+    padding-top: 0 !important;
+    align-items:unset !important;
+  }
+  .navbar-expand-lg{
+    padding-top: 0 !important;
+  }
+
+.brand1 {
+    color: #C11FA2 !important;
+    font-size: 27px !important;
+  }
+  circle {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .quote-wrapper {
+    margin-top: unset !important;
+    height: 90px;
+    width: 90px;
+    margin-right: 25px;
+    background-color: #8FC461;
+  }
+  .quote {
+    height: 42px;
+    border-radius: 35px;
+    background-color: #5034BB;
+    color: white;
+    
+  }
+  .main-sm {
+    height: 42px;
+    border-radius: 30px;
+    background-color: #B3CBDD;
+    color: black;
+    display: inline;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 3px solid black !important;
+    
+  }
+  .quote-big {
+    border-radius: 47px;
+    margin: 0px 25px;
+    padding: 3px;
+    background-color: #C11FA2;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main-big {
+    border-radius: 47px;
+    margin: 0px 25px;
+    padding: 3px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .bm{
+    margin-top: 20px;
+    margin-left: 9px;
+    margin-bottom: 0rem;
+  }
+  .bm1{
+    margin-top: 3px;
+    margin-left: 9px;
+    margin-bottom: 0rem;
+  }
+  .first {
+    margin-top: 45px !important;
+    padding-left: 50px !important;
+  }
+  .nav-text{
+    color: #5034BB !important;
+  }
+  .search{
+    background-color: #788CCE !important;
+    color: white;
+  }
+  .secondpart {
+  background-color:   #99B0F9 !important;
+  }
+  .quote-big a{
+    color: white !important;
+  }
+  
+  .navbar-brand1{
+    background-color: #F7EA4C !important;
+    padding: 3px 35px;
+  }
+  /* .donate{
+    background-color: #F7EA4C !important;
+    
+  } */
+
+  footer{
+    background-color: #788CCE !important;
+    color: white;
+    padding: 15px 5px;
+  }
+  
+.footer-part{
+  margin-left: 0px !important;
+  padding: 3px 50px;
+}
+.card-body{
+  background-color: #498FB4 !important;
+  border: 2px solid black !important ;
+  margin-top: 3px;
+}
+.card{
+  background: transparent !important;
+}
+.ecard{
+  background-color: #B44962 !important;
+  border-radius: 40px;
+}
+.contact{
+  background-color: black !important;
+  border-radius: 20px;
+}
+.reference{
+  background-color: white !important;
+}
+.contact-form label{
+  color: white;
+}
+.navbar-toggler-icon{
+  background-color: red !important;
+  color: black !important;
+  border: 1px solid black !important;
+}
+.navbar-dark .navbar-toggler {
+  border-color: transparent !important;
+}
+.srch{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.footer-part ul li a {
+  color: white !important;
+}
+.card img{
+  width: 100% !important;
+  height: 250px !important;
+}
+.up-img img{
+  width: 100% !important;
+  height: 350px !important;
+}
+.low-img img{
+  width: 150% !important;
+  height: 120px !important;
+}
+
+
+  @media screen and (max-width: 768px) { 
+    .bm{
+      margin-top: 3px;
+      margin-left: 9px;
+      margin-bottom: 0rem;
+      padding-top: 20px;
+    }
+    .bm1{
+      margin-top: 3px;
+      margin-left: 9px;
+      margin-bottom: 0rem;
+    }
+    .first {
+      margin-top: 5px !important;
+      padding-left: 15px !important;
+    }
+    .quote-wrapper {
+      
+      margin-right: 0px;
+    }
+    .low-img img{
+      width: 100% !important;
+      height: 120px !important;
+    }
+    .main-sm {
+      font-size: 1rem;
+    }
+    .brand1 {
+      font-size: 22px !important;
+    }
+      
+    
+  }
+  @media screen and (max-width: 1150px) { 
+    .quote-big {
+      border-radius: 47px;
+      margin: 0px 8px;
+      padding: 2px;
+      background-color: #C11FA2;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+  }
